@@ -42,7 +42,7 @@ class SectionController {
         
         // Traitement du formulaire d'ajout de bénévole
         $message = '';
-        $messageType = '';
+        $messageType =  '';
         
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if (isset($_POST['action'])) {

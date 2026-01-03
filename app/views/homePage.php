@@ -12,9 +12,8 @@
     
     <div class="max-w-6xl mx-auto px-6 py-16">
         
-        <!-- En-tête principal -->
         <div class="text-center mb-16">
-            <div class="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-semibold mb-4">
+            <div class="inline-block px-4 py-2  bg-indigo-100 text-indigo-700 rounded-full text-sm font-semibold mb-4">
                 Projet Universitaire - L3 Informatique
             </div>
             <h1 class="text-5xl font-extrabold text-slate-900 mb-4 leading-tight">
@@ -25,7 +24,6 @@
             </h2>
         </div>
 
-        <!-- Contexte académique -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 mb-8">
             <div class="flex items-start mb-6">
                 <div class="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center mr-4 flex-shrink-0">
@@ -44,7 +42,6 @@
             </div>
         </div>
 
-        <!-- Auteurs -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 mb-8">
             <div class="flex items-start mb-4">
                 <div class="w-12 h-12 rounded-xl bg-emerald-50 flex items-center justify-center mr-4 flex-shrink-0">
@@ -76,7 +73,6 @@
             </div>
         </div>
 
-        <!-- Message de bienvenue et fonctionnalités -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 mb-8">
             <div class="flex items-start mb-6">
                 <div class="w-12 h-12 rounded-xl bg-amber-50 flex items-center justify-center mr-4 flex-shrink-0">
@@ -111,7 +107,7 @@
                     </div>
                     <div>
                         <p class="font-semibold text-slate-800">Planning des activités</p>
-                        <p class="text-sm text-slate-500">Filtrage par section, jour et créneau horaire</p>
+                        <p class="text-sm text-slate-500">Filtrage par section, jour et creneaux horaires</p>
                     </div>
                 </div>
 
@@ -138,7 +134,6 @@
             </div>
         </div>
 
-        <!-- Accès rapide -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <a href="/activite-liste" 
                class="group bg-gradient-to-br from-indigo-500 to-indigo-600 text-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 hover:-translate-y-1">
@@ -165,7 +160,6 @@
             </a>
         </div>
 
-        <!-- Footer informatif -->
         <div class="mt-12 text-center text-slate-500 text-sm">
             <p>
                 <i class="fa-solid fa-code mr-1"></i>

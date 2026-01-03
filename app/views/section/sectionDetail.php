@@ -13,7 +13,6 @@
 
     <div class="max-w-5xl mx-auto px-6 py-12">
         
-        <!-- Bouton retour -->
         <a href="/section-liste" class="inline-flex items-center text-indigo-600 hover:text-indigo-800 mb-6 transition-colors">
             <i class="fa-solid fa-arrow-left mr-2"></i>
             Retour à la liste des sections
@@ -79,14 +78,13 @@
             </div>
         </div>
 
-        <!-- Liste des bénévoles -->
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-8">
             <div class="px-8 py-5 bg-slate-50/50 border-b border-slate-200 flex justify-between items-center">
                 <h2 class="text-xl font-bold text-slate-800">
                     <i class="fa-solid fa-users mr-2 text-indigo-600"></i>
                     Bénévoles de la section
                 </h2>
-                <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm font-semibold rounded-full">
+                <span class="px-3 py-1  bg-indigo-100 text-indigo-700 text-sm font-semibold rounded-full">
                     <?php echo count($benevoles); ?> bénévole(s)
                 </span>
             </div>

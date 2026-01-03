@@ -1,9 +1,4 @@
 <?php
-/**
- * Point d'entrée de l'application ASCG
- * Gestion du routage des différentes pages
- */
-
 require_once '../app/controllers/GlobalController.php';
 require_once '../app/controllers/ActiviteController.php';
 require_once '../app/controllers/SectionController.php';

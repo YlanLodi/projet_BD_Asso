@@ -23,7 +23,7 @@ class ActiviteController {
         
         // Si des filtres sont présents, utiliser la méthode filtrée
         if ($sectionsFilter || $joursFilter || $heureMinFilter || $heureMaxFilter) {
-            $activites = $model->getActivitesFiltered($sectionsFilter, $joursFilter, $heureMinFilter, $heureMaxFilter);
+             $activites = $model->getActivitesFiltered($sectionsFilter, $joursFilter, $heureMinFilter, $heureMaxFilter);
         } else {
             $activites = $model->getAllActivite();
         }

@@ -13,7 +13,7 @@
 
     <div class="max-w-7xl mx-auto px-6 py-12">
 
-            
+             
         <div class="mb-12 pb-6 flex justify-between items-center">
             <div>
                 <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight">
