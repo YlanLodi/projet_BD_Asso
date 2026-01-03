@@ -8,6 +8,8 @@ class ActiviteController {
         $model = new Activite();
         $activites = $model->getAllActivite();
 
+        $sections = $model->getUsedSections();
+
         require_once __DIR__.'/../views/activite/activiteList.php';
     }
 }

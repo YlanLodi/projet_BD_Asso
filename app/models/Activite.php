@@ -20,4 +20,15 @@ class Activite {
         $stmt->execute();
         return $stmt->fetchAll();
     }
+
+    public function getUsedSections() {
+        $sql = "SELECT DISTINCT s.lib_section 
+                FROM section s
+                JOIN activite a ON s.cd_section = a.cd_section_activ
+                ORDER BY s.lib_section ASC";
+                
+        $stmt = $this->db->prepare($sql);
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
 }
