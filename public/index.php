@@ -44,5 +44,5 @@ switch($path){
         break;
 
     default:
-        new GlobalController()->notFound();
+        (new GlobalController())->notFound();
 }
